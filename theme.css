@@ -1,0 +1,18 @@
+:root {
+  --gf-primary: #ebebeb;
+  --gf-secondary: #aaa;
+  --gf-background: #333;
+  --gf-accent: #e1b4b6;
+  --gf-accent-rich: #f0a4a6;
+
+  color: var(--gf-primary);
+  background-color: var(--gf-background);
+}
+
+a {
+  color: var(--gf-accent);
+}
+
+a:visited {
+  color: var(--gf-accent-rich);
+}
