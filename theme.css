@@ -8,11 +8,3 @@
   color: var(--gf-primary);
   background-color: var(--gf-background);
 }
-
-a {
-  color: var(--gf-accent);
-}
-
-a:visited {
-  color: var(--gf-accent-rich);
-}
