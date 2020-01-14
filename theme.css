@@ -3,8 +3,29 @@
   --gf-secondary: #aaa;
   --gf-background: #333;
   --gf-accent: #e1b4b6;
-  --gf-accent-rich: #f0a4a6;
+  --gf-accent-pale: #e1c4c6;
 
   color: var(--gf-primary);
   background-color: var(--gf-background);
+}
+
+a {
+  color: var(--gf-accent);
+}
+
+a:visited {
+  color: var(--gf-accent-pale);
+}
+
+table {
+  margin: 1em auto;
+}
+
+td {
+  padding: 0 0.5em;
+}
+
+pre, code {
+  font-family: 'Space Mono', monospace;
+  font-size: smaller;
 }

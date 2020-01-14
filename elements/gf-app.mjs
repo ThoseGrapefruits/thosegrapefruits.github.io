@@ -29,10 +29,7 @@ class GFApp extends LitElement {
       </header>
       <main>
         <slot>
-          <h2>Posts</h2>
-          <ul>
-              <li><a href="posts/test-post.html">test post please ignore</a></li>
-          </ul>
+          Loading...
         </slot>
       </main>
     `;

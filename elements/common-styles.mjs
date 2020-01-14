@@ -12,11 +12,16 @@ export default css`
     font-weight: 400;
   }
 
-  a {
+  a, ::slotted(a) {
     color: var(--gf-accent);
   }
 
   a:visited {
-    color: var(--gf-accent-rich);
+    color: var(--gf-accent-pale);
+  }
+
+  pre, code {
+    font-family: 'Space Mono', monospace;
+    font-size: smaller;
   }
 `;
