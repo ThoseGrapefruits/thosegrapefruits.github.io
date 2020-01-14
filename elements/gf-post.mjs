@@ -1,6 +1,7 @@
 import {LitElement, html, css} from 'https://unpkg.com/lit-element/lit-element.js?module';
+import commonStyles from './common-styles.mjs';
     
-class GFApp extends LitElement {
+class GFPost extends LitElement {
 
   static get properties() {
     return {
@@ -11,11 +12,14 @@ class GFApp extends LitElement {
   }
   
   static get styles() {
-    return css`
-      :host {
-        display: block;
-      }
-    `;
+    return [
+      commonStyles,
+      css`
+        :host {
+          display: block;
+        }
+      `
+    ];
   }
 
   render() {
@@ -30,4 +34,4 @@ class GFApp extends LitElement {
   }
 }
 
-customElements.define('gf-app', GFApp);
+customElements.define('gf-post', GFPost);

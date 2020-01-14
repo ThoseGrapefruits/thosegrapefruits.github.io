@@ -1,5 +1,6 @@
-import './gf-header.mjs';
 import {LitElement, html, css} from 'https://unpkg.com/lit-element/lit-element.js?module';
+import './gf-header.mjs';
+import commonStyles from './common-styles.mjs';
     
 class GFApp extends LitElement {
 
@@ -8,22 +9,17 @@ class GFApp extends LitElement {
   }
   
   static get styles() {
-    return css`
-      :host {
-        display: flex;
-        flex-direction: column;
-        max-width: 40em;
-        margin: 1em auto;
-      }
-
-      a {
-        color: var(--gf-accent);
-      }
-
-      a:visited {
-        color: var(--gf-accent-rich);
-      }
-    `;
+    return [
+      commonStyles,
+      css`
+        :host {
+          display: flex;
+          flex-direction: column;
+          max-width: 40em;
+          margin: 1em auto;
+        }
+      `
+    ]
   }
 
   render() {
