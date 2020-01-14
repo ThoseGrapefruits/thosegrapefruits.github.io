@@ -39,7 +39,7 @@ class GFHeader extends LitElement {
 
   render() {
     return html`
-      <img src="../assets/moon.png">
+      <a href="/"><img src="../assets/moon.png"></a>
       <div class="title">
         <h1>ThoseGrapefruits</h1>
         <span>Nothing a nap can't fix.</span>
