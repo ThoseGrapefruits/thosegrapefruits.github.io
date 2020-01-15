@@ -7,46 +7,44 @@
     <link rel="stylesheet" type="text/css" href="../theme.css">
     <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
     <script type="module" src="../elements/gf-app.mjs"></script>
-    <script type="module" src="../elements/gf-post.mjs"></script>
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC|Josefin+Sans:400,400i|Space+Mono&display=swap" rel="stylesheet"> 
   </head>
   <body>
     <gf-app>
-      <gf-post title="lit-element">
-        <p>
-          For a while, I've been looking for a decent way to build a very simple
-          website that could host both blog post like things and fuller pages. I
-          wanted something that didn't require a build step (like every single
-          static-site-from-markdown generator. The main things I wanted were:
-        </p>
+      <h1><code>lit-element</code></h1>
+      <p>
+        For a while, I've been looking for a decent way to build a very simple
+        website that could host both blog post like things and fuller pages. I
+        wanted something that didn't require a build step (like every single
+        static-site-from-markdown generator. The main things I wanted were:
+      </p>
 
-        <ol>
-          <li>No build step</li>
-          <li>Easy to edit</li>
-          <li>Very customisable, especially styling. Ideally, would come with
-            very minimal / no styling</li>
-          <li>Didn't require a ton of code to get something basic working</li>
-        </ol>
+      <ol>
+        <li>No build step</li>
+        <li>Easy to edit</li>
+        <li>Very customisable, especially styling. Ideally, no built-in
+          styling</li>
+        <li>Didn't require a ton of code to get something basic working</li>
+      </ol>
 
-        <p>
-          I've been using <a href="https://github.com/Polymer/lit-element">
-          <code>lit-element</code></a> on a side project for a while now, which
-          has been very rewarding. It's great to work with, and it lets you use
-          a ton of stuff that is (thank goodness) built into modern browsers.
-          So, I gave it a shot.
-        </p>
+      <p>
+        I've been using <a href="https://github.com/Polymer/lit-element">
+        <code>lit-element</code></a> on a side project for a while now, which
+        has been very rewarding. It's great to work with, and it lets you use
+        a ton of stuff that is (thank goodness) built into modern browsers.
+        So, I gave it a shot.
+      </p>
 
-        <p>
-          It's been nice so far. There are downsides, like having to write posts
-          in plain HTML as opposed to Markdown. I also still need to figure out
-          a nicer way to import <code>lit-element</code> without using unpkg,
-          since the long tail of that can be very slow. There's also a fair
-          amount of CSS duplication, as the same stuff that has to be top-level
-          also has to be included in most of the custom elements' stylesheets.
-          All that being said, though, I think I'll stick with this for now. It
-          certainly gives me the flexibility I've been looking for.
-        </p>
-      </gf-post>
+      <p>
+        It's been nice so far. There are downsides, like having to write posts
+        in plain HTML as opposed to Markdown. I also still need to figure out
+        a nicer way to import <code>lit-element</code> without using unpkg,
+        since the long tail of that can be very slow. There's also a fair
+        amount of CSS duplication, as the same stuff that has to be top-level
+        also has to be included in most of the custom elements' stylesheets.
+        All that being said, though, I think I'll stick with this for now. It
+        certainly gives me the flexibility I've been looking for.
+      </p>
     </gf-app>
   </body>
 </html>
