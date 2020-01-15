@@ -7,9 +7,10 @@
 
   color: var(--gf-primary);
   background-color: var(--gf-background);
+  font-family: 'Josefin Sans', sans-serif;
 }
 
-a {
+a, a:visited {
   color: var(--gf-accent);
 }
 
@@ -28,4 +29,11 @@ td {
 pre, code {
   font-family: 'Space Mono', monospace;
   font-size: smaller;
+}
+
+h1, h2, h3, h4, h5, h6,
+::slotted(h1), ::slotted(h2), ::slotted(h3),
+::slotted(h4), ::slotted(h5), ::slotted(h6)  {
+  font-family: 'IM Fell Great Primer SC', serif;
+  font-weight: 400;
 }
