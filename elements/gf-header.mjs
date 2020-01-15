@@ -72,9 +72,11 @@ class GFHeader extends LitElement {
           /
           <a href="/about.html">About</a>
           /
-          <a href="https://pellow.bandcamp.com/">Music</a>
+          <a href="https://pellow.bandcamp.com/" target="_blank">Music</a>
           /
-          <a href="https://thosegrapefruits.smugmug.com/">Photography</a>
+          <a href="https://thosegrapefruits.smugmug.com/" target="_blank">
+            Photography
+          </a>
         </div>
       </div>
     `;
