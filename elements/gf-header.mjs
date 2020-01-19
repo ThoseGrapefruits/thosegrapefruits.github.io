@@ -19,7 +19,6 @@ class GFHeader extends LitElement {
         </a>
         <div class="title">
           <h1>ThoseGrapefruits</h1>
-          <span>It's nothing a nap can't fix.</span>
           <div class="row">
             <div class="links">
               <a href="/">Home</a>
