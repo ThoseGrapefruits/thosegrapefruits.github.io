@@ -10,6 +10,13 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  max-width: 40em;
+  margin: 1em auto;
+}
+
 a, a:visited {
   color: var(--gf-accent);
 }
@@ -28,12 +35,47 @@ td {
 
 pre, code {
   font-family: 'Space Mono', monospace;
-  font-size: smaller;
 }
 
-h1, h2, h3, h4, h5, h6,
-::slotted(h1), ::slotted(h2), ::slotted(h3),
-::slotted(h4), ::slotted(h5), ::slotted(h6)  {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'IM Fell Great Primer SC', serif;
   font-weight: 400;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 1em 0;
+}
+
+nav img {
+  padding: 1em 0;
+  width: 5em;
+  height: 5em;
+}
+
+nav h1 {
+  margin: 0 auto 0.1em auto;
+}
+
+.title {
+  margin: auto 1em auto 0.5em;
+}
+
+.title span {
+  margin-left: 1.5em;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+gf-header .links {
+  margin-left: 2em;
+}
+
+li {
+  margin-bottom: 0.5em;
 }
