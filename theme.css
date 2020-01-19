@@ -46,7 +46,6 @@ nav {
   display: flex;
   flex-direction: row;
   width: 100%;
-  padding: 1em 0;
 }
 
 nav img {
@@ -73,7 +72,7 @@ nav h1 {
 }
 
 gf-header .links {
-  margin-left: 2em;
+  margin-top: 0.5em;
 }
 
 li {
