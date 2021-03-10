@@ -54,8 +54,8 @@
 
     float angle = Mathf.Atan2(vector.x, vector.y);
     float maxMagnitude = Mathf.Abs(vector.x) > Mathf.Abs(vector.y)
-      ? 1 / Mathf.Cos(angle)
-      : 1 / Mathf.Sin(angle);
+      ? 1 / Mathf.Sin(angle)
+      : 1 / Mathf.Cos(angle);
     float magnitude = abs(vector.magnitude / maxMagnitude);
     </pre>
 
