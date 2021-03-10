@@ -8,7 +8,6 @@
   color: var(--gf-primary);
   background-color: var(--gf-background);
   font-family: 'Josefin Sans', sans-serif;
-  line-height: 1.4em;
 }
 
 body {
@@ -49,6 +48,10 @@ img {
   width: 100%;
 }
 
+li {
+  margin-bottom: 0.5em;
+}
+
 nav {
   display: flex;
   flex-direction: row;
@@ -65,6 +68,14 @@ nav h1 {
   margin: 0 auto 0.2em auto;
 }
 
+p {
+  line-height: 1.4em;
+}
+
+ul {
+  margin-top: 0;
+}
+
 .title {
   margin: auto 1em auto 0.5em;
 }
@@ -72,12 +83,4 @@ nav h1 {
 .row {
   display: flex;
   flex-direction: row;
-}
-
-li {
-  margin-bottom: 0.5em;
-}
-
-ul {
-  margin-top: 0;
 }
