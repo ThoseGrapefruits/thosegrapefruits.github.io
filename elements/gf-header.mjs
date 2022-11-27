@@ -26,8 +26,6 @@ class GFHeader extends LitElement {
               <a href="/about.html">About</a>
               /
               <a href="https://github.com/ThoseGrapefruits" target="_blank">GitHub</a>
-              /
-              <a href="#under-construction" target="_blank">Photography</a>
             </div>
           </div>
         </div>
