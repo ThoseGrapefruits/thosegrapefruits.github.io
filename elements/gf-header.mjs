@@ -9,29 +9,6 @@ class GFHeader extends HTMLElement {
     super();
     this.appendChild(renderNav());
   }
-
-  render() {
-    return html`
-      <nav class="row">
-        <a href="/">
-          <img src="../assets/moon.png"
-              alt="Moon texture on transparent background">
-        </a>
-        <div class="title">
-          <h1>ThoseGrapefruits</h1>
-          <div class="row">
-            <div class="links">
-              <a href="/">Home</a>
-              /
-              <a href="/about.html">About</a>
-              /
-              <a href="https://github.com/ThoseGrapefruits" target="_blank">GitHub</a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    `;
-  }
 }
 
 customElements.define('gf-header', GFHeader);

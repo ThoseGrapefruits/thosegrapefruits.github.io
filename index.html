@@ -5,23 +5,51 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="theme.css">
-    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <link rel="icon" href="/assets/favicon.png" />
     <script type="module" src="elements/gf-header.mjs"></script>
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC|Josefin+Sans:400,400i|Space+Mono&display=swap" rel="stylesheet"> 
   </head>
   <body>
     <gf-header></gf-header>
     <h2>Posts</h2>
-    <ul>
-        <li>
-          <a href="posts/joysticks.html">Joysticks</a>
-        </li>
-        <li>
-          <a href="posts/pastel-plum.html">Theme</a>
-        </li>
-        <li>
-          <a href="posts/old-games.html">Old Games</a>
-        </li>
-    </ul>
+
+    <a
+      class="post-intro"
+      aria-describedby="#joysticks-intro"
+      aria-labelledby="#joysticks-header"
+      href="posts/joysticks.html">
+      <h3 id="joysticks-header">
+        Joysticks
+      </h3>
+      <p id="joysticks-intro">
+        A long-winded explanation of how to properly scale joystick input.
+      </p>
+    </a>
+
+    <a
+      class="post-intro"
+      aria-describedby="#theme-intro"
+      aria-labelledby="#theme-header"
+      href="posts/pastel-plum.html">
+      <h3 id="theme-header">
+        Theme
+      </h3>
+      <p id="theme-intro">
+        Description and color codes for this site's theme.
+      </p>
+    </a>
+
+    <a
+      class="post-intro"
+      aria-describedby="#games-intro"
+      aria-labelledby="#games-header"
+      href="posts/games.html">
+      <h3 id="games-header">
+        Games
+      </h3>
+      <p id="games-intro">
+        Game projects and "game" projects, old and new.
+      </p>
+    </a>
   </body>
 </html>

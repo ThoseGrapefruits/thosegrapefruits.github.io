@@ -5,10 +5,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="../theme.css">
-    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <link rel="icon" href="/assets/favicon.png" type="image/x-icon" />
     <script type="module" src="../elements/gf-header.mjs"></script>
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC|Josefin+Sans:400,400i|Space+Mono&display=swap" rel="stylesheet"> 
   </head>
+  <style>
+    .color-demo {
+      font-family: "IM Fell Great Primer SC"
+    }
+  </style>
   <body>
     <gf-header></gf-header>
     <h1>Theme. Pastel Plum</h1>
@@ -16,27 +21,40 @@
     highlight, although most pastels would probably work.
 
     <table>
-      <tr style="background-color: var(--gf-background);">
+      <tr style="background-color: var(--gf-color-background);">
         <td>Background</td>
         <td><pre>#333</pre></td>
       </tr>
-      <tr style="color: black; background-color: var(--gf-accent);">
+      <tr style="color: black; background-color: var(--gf-color-accent);">
         <td>Accent</td>
         <td><pre>#e1b4b6</pre></td>
       </tr>
-      <tr style="color: black; background-color: var(--gf-primary);">
+      <tr style="color: black; background-color: var(--gf-color-primary);">
         <td>Primary Text</td>
         <td><pre>#ebebeb</pre></td>
       </tr>
-      <tr style="color: black; background-color: var(--gf-secondary);">
+      <tr style="color: black; background-color: var(--gf-color-secondary);">
         <td>Secondary Text</td>
         <td><pre>#aaa</pre></td>
       </tr>
+      <tr style="color: black; background-color: #d4f1e3;">
+        <td>Link</td>
+        <td><pre>#d4f1e3</pre></td>
+      </tr>
+      <tr style="color: black; background-color: #efe9ab;">
+        <td>Accent Alt</td>
+        <td><pre>#efe9ab</pre></td>
+      </tr>
     </table>
 
-    I'm considering switching to a colour scheme with multiple pastels. Will
-    experiment with that in a bit. I'm thinking a teal or mint (for links),
-    a yellow (because pastel yellow is very nice, I'll find a use for it),
-    and the current pink.
+    <p>
+      I'm considering switching to a colour scheme with multiple pastels. Will
+      experiment with that in a bit. I'm thinking of adding a
+      <span class="color-demo" style="color: #d4f1e3">mint</span>
+      (for links) and a
+      <span class="color-demo" style="color: #efe9ab;">yellow</span>
+      (because pastel yellow is very nice, I'll find a use for it). It's turning
+      into a sherbet but that's not a bad thing.
+    </p>
   </body>
 </html>
